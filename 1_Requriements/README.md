@@ -7,4 +7,5 @@ low level requriements-
 how each feature is implemented:
 1) Here in low level how it work will be shown
 
+2)Here using with the help of loops,function and pointer concept is used
 
