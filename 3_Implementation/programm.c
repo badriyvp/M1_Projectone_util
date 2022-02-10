@@ -16,9 +16,28 @@
 #include<stdio.h>
 int main()
 {
-int runs, wickets;
+int runs, wickets, score;
 scanf("%d",&runs);
 scanf("%d",&wickets);
-printf("%d",runs);
+
+score=  scoreboard(runs,wickets);
 
 }
+int scoreboard(int r1, int w1)
+{
+    {
+if (r1>100)
+printf("century\n");
+else if(r1<1)
+printf("duckout\n");
+    }
+    {
+    if(w1>=5)
+    printf("fivewickets");
+
+}
+
+
+
+}
+
