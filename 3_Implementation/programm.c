@@ -48,7 +48,3 @@ int name(int *r2,int *w2)
 }
 
 
-
-
-
-
