@@ -1,14 +1,3 @@
-/**
- * @file programm.c
- * @author your name (you@domain.com)
- * @brief  code for scoreboard
- * @version 0.1
- * @date 2022-02-10
- * 
- * @copyright Copyright (c) 2022
- * 
- */
-
 #include<stdio.h>
 int main()
 {
@@ -48,5 +37,3 @@ int name(int *r2,int *w2)
  printf("others\n");
     
 }
-
-
