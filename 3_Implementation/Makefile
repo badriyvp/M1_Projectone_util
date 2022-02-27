@@ -3,14 +3,14 @@
 ########################################################################
 
 # Compiler settings - Can be customized.
-CC = gcc
-CXXFLAGS = -std=c11 -Wall
+CC = g++
+CXXFLAGS = -std=c++11 -Wall
 LDFLAGS = 
 
 # Makefile settings - Can be customized.
 APPNAME = myapp
-EXT = .c
-SRCDIR = src
+EXT = .cpp
+SRCDIR = /mnt/c/Users/user/Downloads/M1_Projectone_util
 OBJDIR = obj
 
 ############## Do not change anything from here downwards! #############
