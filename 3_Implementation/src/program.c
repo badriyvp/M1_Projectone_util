@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int main()
 {
 int runs, wickets, score, player;
@@ -12,6 +13,7 @@ player= name(&runs,&wickets);
 
 
 }
+
 int scoreboard(int r1, int w1)
 {
     {

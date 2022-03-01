@@ -9,8 +9,8 @@ LDFLAGS =
 
 # Makefile settings - Can be customized.
 APPNAME = myapp
-EXT = .cpp
-SRCDIR = /mnt/c/Users/user/Downloads/M1_Projectone_util
+EXT = .c
+SRCDIR = /mnt/c/Users/user/Downloads/M1_Projectone_util/3_Implementation
 OBJDIR = obj
 
 ############## Do not change anything from here downwards! #############
