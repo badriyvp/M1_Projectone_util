@@ -1,58 +1,40 @@
-/**
- * @file programm.c
- * @author alavala pavan
- * @brief  score board
- * @version 0.1
- * @date 2022-03-02
- * 
- * @copyright Copyright (c) 2022
- * 
- */
- #include"programm.h"
 
+#include<stdio.h>
 
- /*int scoreboard(int r1, int w1)
+int main()
 
 {
-    {
-if (r1>100)
 
-printf("century good match\n");
+int runs, wickets, score, player, match, mvp, teamtotal,halfruns;/*here i have taken input from the user and
+the inputs are runs and wickets by a player */
+halfruns= teamtotal/2;
+printf("enter runs");
 
-else if(r1<1)
+scanf("%d",&runs);
 
-printf("duckout\n");
-    }
+printf("enter wickets");
 
-    {
-    if(w1>=5)
+scanf("%d",&wickets);
 
-    printf("fivewickets great bolwer\n");
-    else if(w1<=1)
+printf(" total runs scored by team");
 
-    printf("most expensive bolwer\n");
+scanf("%d",&teamtotal);
+
+// calling scoreboard function//
+score=  scoreboard(runs,wickets);
+
+// calling name function //
+player= name(&runs,&wickets);
+
+// calling cricket function//
+match= cricket(runs,wickets);
+
+//calling manofthematch function//
+
+mvp= manofthematch(teamtotal, wickets);
+
 
 }
-
-}
-
-int name(int *r2,int *w2)
-
-{
- if(*r2>50)
-
- printf("namee of player is virat\n");
-
- else
- 
- printf("others\n");
-    
-}
-
-int match(int m1, int m2)
-{
-    
-} */
 // scoreboard function is here and its defination//
 
 // here the possible output is that if the batsmen score a 100 then it will respond //
@@ -93,7 +75,7 @@ int name(int *r2,int *w2)
 {
  if(*r2>50)
 
- printf("name of player is virat\n");
+ printf("namee of player is virat\n");
 
  else
 
@@ -111,8 +93,7 @@ int cricket(int m1,int m2)
 
     {
         printf(" he is an allrounder");
-        
-        printf(" game changer \t");
+        printf(" game changer");
     }
 
 }
@@ -129,9 +110,8 @@ int manofthematch(int total, int wic)
      if(total>300)
 
      {
-         printf("man of the match is from this team \t");
+         printf("man of the match is from this team");
 
      }
 
  }
-
